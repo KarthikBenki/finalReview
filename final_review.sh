@@ -9,6 +9,8 @@ c. Check if the Palindrome number is also prime
 
 cmt
 read -p "Enter the number: " num
+
+##prime function
 prime()
 {
 	num=$1
@@ -29,6 +31,7 @@ prime()
 	fi
 }
 
+##palindrome function
 palindrome()
 {
 	num=$1
@@ -41,7 +44,7 @@ palindrome()
 	echo $rev
 }
 
-##main
+##main function
 
 
 prime_check=$(prime $num)
